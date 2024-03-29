@@ -5,12 +5,15 @@
   
   Author: **Vladimir Mandic <mandic00@live.com>**  
   License: **MIT**  
-  Repository: **<https://github.com/vladmandic/face-api>**  
+  Repository: **<https://github.com/SystemPanic/face-api.git>**  
   
 ## Changelog
   
-### **HEAD -> master** 2024/01/20 mandic00@live.com
+### **HEAD -> master** 2024/03/29 25750030+SystemPanic@users.noreply.github.com
 
+- support for web workers via monkeypatch and offscreencanvas
+- rebuild
+- merge pull request #188 from rebser/master
 - fixing leaking eventhandlers when using htmlcanvaselement
 - rebuild types
 - rebuild
@@ -19,9 +22,6 @@
 
 - merge pull request #186 from khwalkowicz/master
 - feat: enable noimplicitany
-
-### **release: 1.7.12** 2023/06/12 mandic00@live.com
-
 
 ### **1.7.12** 2023/06/12 mandic00@live.com
 
@@ -62,9 +62,7 @@
 ### **1.7.2** 2022/08/23 mandic00@live.com
 
 - document and remove optional dependencies
-
-### **release: 1.7.1** 2022/07/25 mandic00@live.com
-
+- release build
 
 ### **1.7.1** 2022/07/25 mandic00@live.com
 
@@ -90,6 +88,7 @@
 
 ### **1.6.6** 2022/03/04 mandic00@live.com
 
+- toolkit refresh
 
 ### **1.6.5** 2022/02/07 mandic00@live.com
 
@@ -120,9 +119,6 @@
 ### **1.5.6** 2021/10/22 mandic00@live.com
 
 
-### **release: 1.5.5** 2021/10/19 mandic00@live.com
-
-
 ### **1.5.5** 2021/10/19 mandic00@live.com
 
 - allow backend change in demo via url params
@@ -148,13 +144,7 @@
 ### **1.4.2** 2021/08/31 mandic00@live.com
 
 
-### **release: 1.4.1** 2021/07/29 mandic00@live.com
-
-
 ### **1.4.1** 2021/07/29 mandic00@live.com
-
-
-### **release: 1.3.1** 2021/06/18 mandic00@live.com
 
 
 ### **1.3.1** 2021/06/08 mandic00@live.com
@@ -173,9 +163,6 @@
 
 
 ### **1.2.3** 2021/05/04 mandic00@live.com
-
-
-### **update for tfjs 3.6.0** 2021/04/30 mandic00@live.com
 
 
 ### **1.2.2** 2021/04/30 mandic00@live.com
@@ -242,9 +229,6 @@
 ### **1.0.2** 2021/03/09 mandic00@live.com
 
 
-### **release: 1.0.1** 2021/03/09 mandic00@live.com
-
-
 ### **1.0.1** 2021/03/09 mandic00@live.com
 
 - add badges
@@ -273,18 +257,13 @@
 - exception handling
 - 0.12.8
 - exception handling
-
-### **0.12.7** 2021/02/17 mandic00@live.com
-
+- full rebuild
 - 0.12.7
 - 0.12.6
 - 0.12.5
 - 0.12.4
 - 0.12.3
 - 0.12.2
-
-### **update for tfjs 3.0.0** 2021/01/29 mandic00@live.com
-
 - 0.12.1
 - rebuild
 - 0.11.6
@@ -346,7 +325,7 @@
 
 - removed type from package.json and added nodejs example
 
-### **0.8.6** 2020/10/29 mandic00@live.com
+### **0.8.6** 2020/10/28 mandic00@live.com
 
 
 ### **0.8.5** 2020/10/27 mandic00@live.com
