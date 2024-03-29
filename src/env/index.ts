@@ -23,6 +23,7 @@ function initialize() {
   // to be initialized with wrong environment due to isNodejs() returning true
   if (isBrowser()) return setEnv(createBrowserEnv());
   if (isNodejs()) return setEnv(createNodejsEnv());
+  if (self && self.OffscreenCanvas) return setEnv(createBrowserEnv());
   return null;
 }
 
