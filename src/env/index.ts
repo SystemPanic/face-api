@@ -1,7 +1,6 @@
 import { createBrowserEnv } from './createBrowserEnv';
 import { createFileSystem } from './createFileSystem';
 import { createNodejsEnv } from './createNodejsEnv';
-import { createWebWorkerEnv } from './createWebWorkerEnv';
 import { isBrowser } from './isBrowser';
 import { isNodejs } from './isNodejs';
 import { Environment } from './types';
@@ -24,7 +23,6 @@ function initialize() {
   // to be initialized with wrong environment due to isNodejs() returning true
   if (isBrowser()) return setEnv(createBrowserEnv());
   if (isNodejs()) return setEnv(createNodejsEnv());
-  if (self && self.OffscreenCanvas) return setEnv(createWebWorkerEnv());
   return null;
 }
 

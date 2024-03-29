@@ -1,7 +1,7 @@
 import { Environment } from './types';
 
 export function createBrowserEnv(): Environment {
-  const fetch = window.fetch;
+  const fetch = self.fetch;
   if (!fetch) throw new Error('fetch - missing fetch implementation for browser environment');
 
   const readFile = () => {
